@@ -2,7 +2,7 @@
 
 It enables for any one to order food, soft drinks or any thing from any cafe/restaurant around. The app enables the receiver of order can manage the all coming orders, products, employees and the financial business inside their organization.
 
-You can watch video from <a href="https://www.youtube.com/watch?v=e6pvxLc6DKg"> youtube link<a/>
+You can watch video from <iframe width="560" height="315" src="https://www.youtube.com/embed/e6pvxLc6DKg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
