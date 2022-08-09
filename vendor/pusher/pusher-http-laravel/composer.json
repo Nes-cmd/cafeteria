@@ -1,0 +1,54 @@
+{
+    "name": "pusher/pusher-http-laravel",
+    "description": "[DEPRECATED] A Pusher bridge for Laravel",
+    "license": "MIT",
+    "keywords": ["laravel", "pusher", "http", "api", "php-pusher-server", "rest", "realtime", "trigger", "publish", "events"],
+    "authors": [
+        {
+            "name": "Vincent Klaiber",
+            "email": "hello@vinkla.com",
+            "homepage": "https://vinkla.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "illuminate/contracts": "^5.5|^6.0|^7.0",
+        "illuminate/support": "^5.5|^6.0|^7.0",
+        "graham-campbell/manager": "^3.0|^4.0",
+        "pusher/pusher-php-server": "^3.3|^4.0"
+    },
+    "require-dev": {
+        "graham-campbell/analyzer": "^2.4",
+        "graham-campbell/testbench": "^4.0|^5.0",
+        "mockery/mockery": "^1.0",
+        "phpunit/phpunit": "^6.5|^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pusher\\Laravel\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Pusher\\Tests\\Laravel\\": "tests/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "4.2-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Pusher\\Laravel\\PusherServiceProvider"
+            ],
+            "aliases": {
+                "Pusher": "Pusher\\Laravel\\Facades\\Pusher"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
